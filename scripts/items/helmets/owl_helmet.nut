@@ -5,7 +5,7 @@ this.owl_helmet <- this.inherit("scripts/items/helmets/mail_coif", {
 		this.mail_coif.create();
 		this.m.ID = "armor.head.owl_helmet";
 		this.m.Name = "Owl Helmet";
-		this.m.Description = "A light mail coif crowned with blue feathers and a gilded visor shaped like an owl\'s beak. Its wide eye slits do not hinder sight at all, and whoever wears it sees through the night like a hunting owl.";
+		this.m.Description = "A light cap crowned with dark owl feathers, with a strip of cloth to shade the eyes. It does not hinder sight at all, and whoever wears it sees through the night like a hunting owl.";
 		this.m.ItemType = this.m.ItemType | this.Const.Items.ItemType.Named;
 		this.m.IsDroppedAsLoot = true;
 		this.m.Condition = 80;
@@ -13,18 +13,18 @@ this.owl_helmet <- this.inherit("scripts/items/helmets/mail_coif", {
 		this.m.StaminaModifier = -4;
 		this.m.Vision = 0;
 		this.m.Value = 1500;
-		this.m.Variant = 53;
+		this.m.Variant = 51;
 		this.updateVariant();
 	}
 
 	function updateVariant()
 	{
-		// vanilla named helmet look: mail coif with a golden beak visor and blue feathers
-		this.m.Sprite = "bust_helmet_53";
-		this.m.SpriteDamaged = "bust_helmet_53_damaged";
-		this.m.SpriteCorpse = "bust_helmet_53_dead";
+		// vanilla named helmet look: light cap with a dark feathered crest and a cloth face wrap
+		this.m.Sprite = "bust_helmet_51";
+		this.m.SpriteDamaged = "bust_helmet_51_damaged";
+		this.m.SpriteCorpse = "bust_helmet_51_dead";
 		this.m.IconLarge = "";
-		this.m.Icon = "helmets/inventory_helmet_53.png";
+		this.m.Icon = "helmets/inventory_helmet_51.png";
 	}
 
 	function getTooltip()

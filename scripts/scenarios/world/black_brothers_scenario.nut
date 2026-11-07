@@ -100,8 +100,8 @@ this.black_brothers_scenario <- this.inherit("scripts/scenarios/world/starting_s
 			"brave_trait"
 		], bladeTalents, "%name% learned the sword in the fighting pits and the free companies of the south. Quick on his feet and quicker with his blade, he swore himself to the Black Brothers after they pulled him half-dead out of a lost battle.");
 		items.equip(this.new("scripts/items/weapons/shortsword"));
-		items.equip(this.new("scripts/items/armor/gambeson"));
-		items.equip(this.new("scripts/items/helmets/owl_helmet"));
+		items.equip(this.new("scripts/items/armor/padded_leather"));
+		items.equip(this.new("scripts/items/helmets/mail_coif"));
 
 		// 2) The Wall - tank: defense, fatigue and hitpoints
 		local wallTalents = {};
@@ -128,10 +128,10 @@ this.black_brothers_scenario <- this.inherit("scripts/scenarios/world/starting_s
 			"quick_trait",
 			"eagle_eyes_trait"
 		], owlTalents, "%name% hunted deer by moonlight long before he ever hunted men. The others call him the Owl, for he sees in the dark what other men only hear - and by then his arrow has already flown.");
-		items.equip(this.new("scripts/items/weapons/short_bow"));
+		items.equip(this.new("scripts/items/weapons/oriental/composite_bow"));
 		items.equip(this.new("scripts/items/ammo/quiver_of_arrows"));
 		items.equip(this.new("scripts/items/armor/leather_tunic"));
-		items.equip(this.new("scripts/items/helmets/hunters_hat"));
+		items.equip(this.new("scripts/items/helmets/owl_helmet"));
 		items.addToBag(this.new("scripts/items/weapons/dagger"));
 
 		this.World.Assets.getStash().add(this.new("scripts/items/supplies/smoked_ham_item"));

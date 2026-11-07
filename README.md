@@ -9,9 +9,9 @@ Their random traits are replaced with hand-picked ones, and their level-up rolls
 
 | Character | Background | Talents (stars) | Traits | Equipment |
 | --- | --- | --- | --- | --- |
-| **the Blade** (swordsman) | Sellsword | Melee Skill 3, Initiative 3, Melee Defense 2 | Dexterous, Quick, Brave | Shortsword, Gambeson, **Owl Helmet** |
+| **the Blade** (swordsman) | Sellsword | Melee Skill 3, Initiative 3, Melee Defense 2 | Dexterous, Quick, Brave | Shortsword, Padded Leather, Mail Coif |
 | **the Wall** (tank) | Hedge Knight | Melee Defense 3, Fatigue 3, Hitpoints 3 | Tough, Iron Lungs, Sure Footing | Bludgeon, Wooden Shield, Basic Mail Shirt, Nasal Helmet |
-| **the Owl** (archer) | Hunter | Ranged Skill 3, Initiative 3, Ranged Defense 2 | Night Owl, Quick, Eagle Eyes | Short Bow, Quiver of Arrows, Leather Tunic, Hunter's Hat, Dagger (bag) |
+| **the Owl** (archer) | Hunter | Ranged Skill 3, Initiative 3, Ranged Defense 2 | Night Owl, Quick, Eagle Eyes | Composite Bow, Quiver of Arrows, Leather Tunic, **Owl Helmet**, Dagger (bag) |
 
 The company starts near a small non-military northern town. A short intro event opens the campaign.
 Gold, tools, medicine and ammo are the game defaults for the chosen economic difficulty.
@@ -19,14 +19,13 @@ Gold, tools, medicine and ammo are the game defaults for the chosen economic dif
 ## Item: Owl Helmet
 
 - Unique (named) light helmet, built on the vanilla Mail Coif. It uses the sprite and icon of a
-  vanilla named helmet (variant 53: mail coif with a golden beak visor and blue feathers).
+  vanilla named helmet (variant 51: light cap with a dark feathered crest and a cloth face wrap).
 - 80 durability, -4 maximum fatigue, **no vision penalty**.
 - Its wearer is **not affected by nighttime penalties**. While it is worn, it adds a hidden effect
   (`effects.owl_helmet`) that sets `IsAffectedByNight = false` before the vanilla night effect runs.
   Unequipping the helmet removes the effect.
 
-The scenario puts the Owl Helmet on the Blade, because the Owl already has the Night Owl trait.
-Move it to whoever you like.
+The scenario puts the Owl Helmet on the Owl. Move it to whoever you like.
 
 ## Requirements and compatibility
 

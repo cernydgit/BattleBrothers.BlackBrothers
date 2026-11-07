@@ -9,17 +9,17 @@ Their random traits are replaced with hand-picked ones, and their level-up rolls
 
 | Character | Background | Talents (stars) | Traits | Equipment |
 | --- | --- | --- | --- | --- |
-| **the Blade** (swordsman) | Sellsword | Melee Skill 3, Initiative 3, Melee Defense 2 | Dexterous, Quick, Brave | Arming Sword, Mail Shirt, **Owl Helmet** |
-| **the Wall** (tank) | Hedge Knight | Melee Defense 3, Fatigue 3, Hitpoints 3 | Tough, Iron Lungs, Sure Footing | Winged Mace, Heater Shield, Mail Hauberk, Flat Top Helmet with Mail |
-| **the Owl** (archer) | Hunter | Ranged Skill 3, Initiative 3, Ranged Defense 2 | Night Owl, Quick, Eagle Eyes | Hunting Bow, Quiver of Arrows, Padded Leather, Hunter's Hat, Dagger (bag) |
+| **the Blade** (swordsman) | Sellsword | Melee Skill 3, Initiative 3, Melee Defense 2 | Dexterous, Quick, Brave | Shortsword, Gambeson, **Owl Helmet** |
+| **the Wall** (tank) | Hedge Knight | Melee Defense 3, Fatigue 3, Hitpoints 3 | Tough, Iron Lungs, Sure Footing | Bludgeon, Wooden Shield, Basic Mail Shirt, Nasal Helmet |
+| **the Owl** (archer) | Hunter | Ranged Skill 3, Initiative 3, Ranged Defense 2 | Night Owl, Quick, Eagle Eyes | Short Bow, Quiver of Arrows, Leather Tunic, Hunter's Hat, Dagger (bag) |
 
 The company starts near a small non-military northern town. A short intro event opens the campaign.
 Gold, tools, medicine and ammo are the game defaults for the chosen economic difficulty.
 
 ## Item: Owl Helmet
 
-- Unique (named) helmet, built on the vanilla Kettle Hat look.
-- 140 durability, -6 maximum fatigue, **no vision penalty**.
+- Unique (named) light helmet, built on the vanilla Mail Coif look.
+- 80 durability, -4 maximum fatigue, **no vision penalty**.
 - Its wearer is **not affected by nighttime penalties**. While it is worn, it adds a hidden effect
   (`effects.owl_helmet`) that sets `IsAffectedByNight = false` before the vanilla night effect runs.
   Unequipping the helmet removes the effect.

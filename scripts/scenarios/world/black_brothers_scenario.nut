@@ -99,8 +99,8 @@ this.black_brothers_scenario <- this.inherit("scripts/scenarios/world/starting_s
 			"quick_trait",
 			"brave_trait"
 		], bladeTalents, "%name% learned the sword in the fighting pits and the free companies of the south. Quick on his feet and quicker with his blade, he swore himself to the Black Brothers after they pulled him half-dead out of a lost battle.");
-		items.equip(this.new("scripts/items/weapons/arming_sword"));
-		items.equip(this.new("scripts/items/armor/mail_shirt"));
+		items.equip(this.new("scripts/items/weapons/shortsword"));
+		items.equip(this.new("scripts/items/armor/gambeson"));
 		items.equip(this.new("scripts/items/helmets/owl_helmet"));
 
 		// 2) The Wall - tank: defense, fatigue and hitpoints
@@ -113,10 +113,10 @@ this.black_brothers_scenario <- this.inherit("scripts/scenarios/world/starting_s
 			"iron_lungs_trait",
 			"sure_footing_trait"
 		], wallTalents, "A landless knight of broad shoulders and few words, %name% has held more shield walls than he can count. Where he plants his feet, the line holds - and the Black Brothers have never been broken while he stood among them.");
-		items.equip(this.new("scripts/items/weapons/winged_mace"));
-		items.equip(this.new("scripts/items/shields/heater_shield"));
-		items.equip(this.new("scripts/items/armor/mail_hauberk"));
-		items.equip(this.new("scripts/items/helmets/flat_top_with_mail"));
+		items.equip(this.new("scripts/items/weapons/bludgeon"));
+		items.equip(this.new("scripts/items/shields/wooden_shield"));
+		items.equip(this.new("scripts/items/armor/basic_mail_shirt"));
+		items.equip(this.new("scripts/items/helmets/nasal_helmet"));
 
 		// 3) The Owl - archer: night owl, speed and ranged combat
 		local owlTalents = {};
@@ -128,9 +128,9 @@ this.black_brothers_scenario <- this.inherit("scripts/scenarios/world/starting_s
 			"quick_trait",
 			"eagle_eyes_trait"
 		], owlTalents, "%name% hunted deer by moonlight long before he ever hunted men. The others call him the Owl, for he sees in the dark what other men only hear - and by then his arrow has already flown.");
-		items.equip(this.new("scripts/items/weapons/hunting_bow"));
+		items.equip(this.new("scripts/items/weapons/short_bow"));
 		items.equip(this.new("scripts/items/ammo/quiver_of_arrows"));
-		items.equip(this.new("scripts/items/armor/padded_leather"));
+		items.equip(this.new("scripts/items/armor/leather_tunic"));
 		items.equip(this.new("scripts/items/helmets/hunters_hat"));
 		items.addToBag(this.new("scripts/items/weapons/dagger"));
 

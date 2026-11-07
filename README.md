@@ -19,7 +19,7 @@ Gold, tools, medicine and ammo are the game defaults for the chosen economic dif
 ## Item: Owl Helmet
 
 - Unique (named) light helmet, built on the vanilla Mail Coif. It uses the sprite and icon of a
-  vanilla named helmet (variant 51: light cap with a dark feathered crest and a cloth face wrap).
+  vanilla named helmet (variant 232: rusted skull-faced helm).
 - 80 durability, -4 maximum fatigue, **no vision penalty**.
 - Its wearer is **not affected by nighttime penalties**. While it is worn, it adds a hidden effect
   (`effects.owl_helmet`) that sets `IsAffectedByNight = false` before the vanilla night effect runs.

@@ -5,7 +5,7 @@ this.owl_helmet <- this.inherit("scripts/items/helmets/mail_coif", {
 		this.mail_coif.create();
 		this.m.ID = "armor.head.owl_helmet";
 		this.m.Name = "Owl Helmet";
-		this.m.Description = "A light cap crowned with dark owl feathers, with a strip of cloth to shade the eyes. It does not hinder sight at all, and whoever wears it sees through the night like a hunting owl.";
+		this.m.Description = "A light, battered helm hammered into the shape of a grinning skull. Its wide eye holes do not hinder sight at all, and whoever wears it sees through the night like a hunting owl.";
 		this.m.ItemType = this.m.ItemType | this.Const.Items.ItemType.Named;
 		this.m.IsDroppedAsLoot = true;
 		this.m.Condition = 80;
@@ -13,18 +13,18 @@ this.owl_helmet <- this.inherit("scripts/items/helmets/mail_coif", {
 		this.m.StaminaModifier = -4;
 		this.m.Vision = 0;
 		this.m.Value = 1500;
-		this.m.Variant = 51;
+		this.m.Variant = 232;
 		this.updateVariant();
 	}
 
 	function updateVariant()
 	{
-		// vanilla named helmet look: light cap with a dark feathered crest and a cloth face wrap
-		this.m.Sprite = "bust_helmet_51";
-		this.m.SpriteDamaged = "bust_helmet_51_damaged";
-		this.m.SpriteCorpse = "bust_helmet_51_dead";
+		// vanilla named helmet look: rusted skull-faced helm
+		this.m.Sprite = "bust_helmet_232";
+		this.m.SpriteDamaged = "bust_helmet_232_damaged";
+		this.m.SpriteCorpse = "bust_helmet_232_dead";
 		this.m.IconLarge = "";
-		this.m.Icon = "helmets/inventory_helmet_51.png";
+		this.m.Icon = "helmets/inventory_helmet_232.png";
 	}
 
 	function getTooltip()

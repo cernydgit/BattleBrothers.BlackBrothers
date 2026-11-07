@@ -6,7 +6,7 @@ this.black_brothers_intro_event <- this.inherit("scripts/events/event", {
 		this.m.IsSpecial = true;
 		this.m.Screens.push({
 			ID = "A",
-			Text = "[img]gfx/ui/events/event_17.png[/img]{The captain who led you is dead, the company scattered, its banner burned. Only three of you walked away from that field: the Blade, the Wall and the Owl.\n\nYou dyed a strip of cloth black, tied it to a spear and swore to each other that no one would ever again sell your lives cheaply. From now on you fight for coin, for each other - and under your own black banner.\n\nThe Owl pulls on his old cap crowned with dark owl feathers and grins. %SPEECH_ON%Took it off a dead night-watchman. With this on, I'd see in the dark even without these eyes of mine.%SPEECH_OFF%}",
+			Text = "[img]gfx/ui/events/event_17.png[/img]{The captain who led you is dead, the company scattered, its banner burned. Only three of you walked away from that field: the Blade, the Wall and the Owl.\n\nYou dyed a strip of cloth black, tied it to a spear and swore to each other that no one would ever again sell your lives cheaply. From now on you fight for coin, for each other - and under your own black banner.\n\nThe Owl pulls on his old skull-faced helm and grins. %SPEECH_ON%Took it off a dead night-watchman. With this on, I'd see in the dark even without these eyes of mine.%SPEECH_OFF%}",
 			Image = "",
 			Banner = "",
 			List = [],

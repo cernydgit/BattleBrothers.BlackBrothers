@@ -26,7 +26,14 @@ this.black_brothers_scenario <- this.inherit("scripts/scenarios/world/starting_s
 		_bro.m.HireTime = this.Time.getVirtualTimeF();
 
 		// replace the random traits with hand-picked ones
-		_bro.getSkills().removeByType(this.Const.SkillType.Trait);
+		// (the background is also of type Trait, so it must be kept)
+		foreach( s in _bro.getSkills().getAllSkillsOfType(this.Const.SkillType.Trait) )
+		{
+			if (!s.isType(this.Const.SkillType.Background))
+			{
+				_bro.getSkills().remove(s);
+			}
+		}
 
 		foreach( t in _traits )
 		{
